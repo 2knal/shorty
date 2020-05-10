@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shorty</title>
+</head>
+<body>      
+    <header>
+        <div>
+            <svg class='icon' xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="none" stroke="#444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M20 4L8.12 15.88"/><path d="M14.47 14.48L20 20"/><path d="M8.12 8.12L12 12"/></g></svg>
+        </div>
+        <h3 class='logo'>Shorty</h3>
+    </header>
+    <div class="container">
+        <p>View your stats <a href="stats.html">here.</a></p>
+        <input id='long' type="text", placeholder="Enter long URL...">
+        <input id='short' type="text", placeholder="Enter short URL...">
+        <a href="#" class='btn' onclick='submitURL()'>Shorten</a>
+    </div>
+    <footer>
+        Made with ♥ by <a href="http://github.com/2knal">@2knal</a>
+    </footer>
+    <div id="snackbar">Some text some message..</div>
+
+    <script src="js/snackbar.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
